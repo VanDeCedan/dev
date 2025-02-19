@@ -19,7 +19,7 @@ pipeline {
         } 
                 stage('Run Script') { 
             steps { 
-                bat '.\\venv\\bin\\python app.py' //sh pour linux ou macOs
+                bat '.\\venv\\Scripts\\python.exe app.py' //sh pour linux ou macOs
  
             } 
         } 
@@ -38,4 +38,4 @@ pipeline {
                      to: 'nmaxies14@gmail.com' 
         } 
     }       
-} 
+} \
