@@ -1,0 +1,5 @@
+import streamlit as st
+def main(): 
+   st.write("Hello, Jenkins CI  pipeline!") 
+if __name__ == "__main__": 
+   main() 
